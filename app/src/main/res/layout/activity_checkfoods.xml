@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/foodlist"
+    tools:context="com.ours.thecanteen.Checkfoods" >
+
+
+    <Button
+        android:id="@+id/checkbreakfast"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:background="@drawable/buttonbg"
+        android:text=" CHECK FOOD LIST"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="95dp"
+        android:onClick="checkbreakfast"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        tools:ignore="OnClick" />
+
+
+</RelativeLayout>
+
+

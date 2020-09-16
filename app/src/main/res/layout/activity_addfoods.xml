@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/addfoods"
+    tools:context="com.ours.thecanteen.Addfoods">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/addfood" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="ADD A NEW FOOD"
+        android:textColor="#000000"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/addnewfood"
+
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="30dp"
+        android:padding="12dp"
+        android:hint="ITEM NAME"
+        android:textColorHint="#706F6F"
+        android:maxLines="1"
+        android:layout_marginTop="350dp"
+        tools:ignore="InvalidId" />
+
+    <EditText
+        android:id="@+id/addfoodprice"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:drawablePadding="15dp"
+        android:hint="PRICE"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:singleLine="true"
+        android:textColorHint="#706F6F"
+        tools:ignore="DuplicateIds" />
+    <Button
+        android:id="@+id/addfoodlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/signup_button_backg"
+        android:text="ADD TO LIST"
+        android:textColor="#ffffff"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:layout_marginTop="500dp"
+        android:onClick="addfoodlist"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        tools:ignore="OnClick" />
+
+
+</RelativeLayout>
+
+

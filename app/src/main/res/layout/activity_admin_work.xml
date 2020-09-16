@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/adminw"
+        tools:context="com.ours.thecanteen.Admin_work" >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/chef" />
+
+        <Button
+            android:id="@+id/checkfood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonbg"
+            android:text="CHECK PRESENT FOODS"
+            android:textColor="#FFFFFF"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:layout_marginTop="290dp"
+            android:onClick="checkfood"
+            android:textSize="20dp"
+            android:fontFamily="cursive"
+            tools:ignore="OnClick" />
+        <Button
+            android:id="@+id/checkorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonbg1"
+            android:text="CHECK ORDERS"
+            android:textColor="#020101"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:layout_marginTop="370dp"
+            android:onClick="checkorder"
+            android:textSize="20dp"
+            android:fontFamily="cursive"/>
+        <Button
+            android:id="@+id/addfood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonbg"
+            android:text="ADD NEW FOODS"
+            android:textColor="#ffffff"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:layout_marginTop="450dp"
+            android:onClick="addfood"
+            android:textSize="20dp"
+            android:fontFamily="cursive"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonbg1"
+            android:text="LOG OUT"
+            android:textColor="#000000"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:layout_marginTop="530dp"
+            android:onClick="logout"
+            android:textSize="20dp"
+            android:fontFamily="cursive"/>
+
+
+    </RelativeLayout>
+
+
